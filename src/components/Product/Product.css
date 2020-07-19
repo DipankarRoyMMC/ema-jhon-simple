@@ -1,0 +1,39 @@
+.single-product{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.single-product h3{
+    color: blue;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.product-img{
+    margin-right: 20px;
+
+}
+
+.item-description{
+    display: flex;
+}
+.item-description > div{
+    width: 50%;
+}
+.item-description button{
+    background-color: #F0C14B;
+    color: #000;
+    border: 1px solid #444;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 50%;
+
+}
+
+.product-details{
+    width: 100%;
+}
